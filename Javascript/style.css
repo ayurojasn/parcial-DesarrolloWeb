@@ -1,0 +1,24 @@
+/*General rules*/
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+.main{
+    display: flex;
+}
+
+#arma{
+    margin-bottom: 15px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}

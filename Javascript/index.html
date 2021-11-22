@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="app.js"></script>
+    <title>Arma tu sandwich</title>
+  </head>
+
+  <body>
+
+   
+    <h2 id = "arma">Arma tu sandwich</h2>
+
+    <div class = "main">
+    <label>
+      <select name = "foodFrom" id = "left" size = "5">
+        <optgroup>
+          <option id = "Pollo" value = "Pollo">Pollo</option>
+          <option id = "Carne" value = "Carne">Carne</option>
+          <option value = "Tomate">Tomate</option>
+          <option value = "Lechuga">Lechuga</option>
+          <option value = "Pan">Pan</option>
+        </optgroup>
+      </select>
+    </label>
+
+    <div class = "buttons">
+    <button id = "agregar" onclick = "agregar()">Agregar</button>
+    <button id = "remover" onclick = "remover()">Remover</button>
+    </div>
+
+    <label>
+      <select name = "food" id = "right" size = "5"></select>
+    </label>
+
+  </div>
+  </body>
+</html>

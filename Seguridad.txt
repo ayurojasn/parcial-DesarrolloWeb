@@ -1,0 +1,21 @@
+1. ¿Para qué sirve sessionStorage en un navegador?
+
+    Almacenar los datos de un usuario autenticado de manera local  --->sessionStorage, 
+    En donde se puede acceder desde cualquier parte de la aplicación y así saber en cualquier
+    momento, cuál usuario es el que está utilizando la aplicación. 
+
+    Es limpiada/vaciada cuando la sesión termina, o sea cuando la pestaña del navegador se cierre, 
+    a diferencia de localStorage que almacena la información de forma indefinida o hasta que se limpien 
+    los datos del navegador.
+
+    sessionStorage.setItem('key', 'value') ---> Mapa
+
+    sessionStorage.setItem('Nombre', 'Juliana')
+
+2. ¿Qué es MAC?
+
+    Media access Control.
+    Es un identificador único que es asignado a la tarjeta de red cuando se fabrica 
+    el dispositivo. 
+    Se tiene en cuenta al momento de conectarnos a una red y así navegar por internet. 
+    También se puede utilizar como filtro para dar acceso a determinador usuarios en una red.
